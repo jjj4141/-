@@ -1,0 +1,13 @@
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+data = set()
+
+for _ in range(n):
+    data.add(int(input()))
+
+result = sorted(data)
+
+for i in result:
+    print(i)
